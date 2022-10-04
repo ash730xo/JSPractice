@@ -1,2 +1,2 @@
 # JSPractice
-Javascript Practice Code as I learn JS
+Javascript Practice problems as I learn JS
