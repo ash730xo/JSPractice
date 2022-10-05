@@ -10,7 +10,7 @@ functions:
  */
 
 let textbox = document.getElementById("text");
-let double = document.getElementById("text2");
+
 let button = document.getElementById("button");
 
 // On click listener
@@ -19,10 +19,11 @@ button.onclick = function () {
     textInput.split('')
     let textOutput = ""; 
 
-    for(let i = 0; i <= textInput.length; i++){
-       textOutput += (textInput[i] + textInput[i] )
+    for(let i = 0; i < textInput.length; i++){
+       textOutput += (textInput[i] + textInput[i] );
+       document.getElementById("text1").value = textOutput
     }
-    alert(textOutput)
+
 }
 
 
