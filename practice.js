@@ -13,6 +13,11 @@ functions:
 let textbox = document.getElementById("text");
 let button = document.getElementById("button");
 
+//second project id
+let userBox = document.getElementById("username");
+let passBox = document.getElementById("password");
+let submit = document.getElementById("submit");
+
 // On click listener-- handles everything once the user clicks the submit button
 button.onclick = function () {
     // gets clients input
@@ -34,6 +39,13 @@ button.onclick = function () {
        document.getElementById("text1").value = textOutput
     }
 
+}
+
+submit.onclick = function() {
+    user = userBox.value;
+    pass = passBox.value;
+
+    console.log("Username " + user + " . " + "Password = " + pass)
 }
 
 
