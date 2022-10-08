@@ -5,6 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<script>, initial-scale=1.0">
+
+    <style>
+        .boarder {
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            width: 65%;
+            justify-content: center;
+            text-align: center;
+        }
+
+        p.a {
+            text-align-last: center;
+
+        }
+    </style>
     <title>  Daily Practice </title>
 </head>
 
@@ -25,19 +41,25 @@
 
     <br><br>
 
+<div class="boarder">
 <!-- PROJECT NUMBER 2 BAAAABBBYYY -->
-<h1> Project #2 </h1>
+<h1 class="a"> Project #2 </h1>
 
 <!-- User name text box -->
-<p> Username: </p>
-<input type="text" id="username">
+
+<span>
+<p class="a">  Username: </p>
+<input type="text" id="username" placeholder="Enter your Username">
 <br><br>
 <!-- Pass text box -->
-<p> Password: </p>
-<input type="text" id="password">
+<p class="a"> Password: </p>
+<input type="text" id="password" placeholder="Password">
 <br><br>
 <!-- Submit Button -->
 <button id="button"> Submit </button>
+</span>
+</div>
+
 
     <!-- uses Js file -->
     <script src="practice.js"></script>
