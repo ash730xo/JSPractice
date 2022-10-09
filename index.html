@@ -20,6 +20,10 @@
             text-align-last: center;
 
         }
+
+        span.hide{
+            text-overflow: ellipsis;
+        }
     </style>
     <title>  Daily Practice </title>
 </head>
@@ -53,7 +57,10 @@
 <br><br>
 <!-- Pass text box -->
 <p class="a"> Password: </p>
-<input type="text" id="password" placeholder="Password">
+<span class="hide">
+<!--NOTE TO SELF:: HTML has a hidden type for password texts-->
+<input type="password" id="password" placeholder="Password">
+</span>
 <br><br>
 <!-- Submit Button -->
 <button id="submit"> Submit </button>
