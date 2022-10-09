@@ -46,19 +46,22 @@ submit.onclick = function() {
     user = userBox.value;
     pass = passBox.value;
 
+    pass.split('');
+
     // password place holder
     let passHold = "";
 
+
     //checking to see if the password has specific characters in user input
+
     for(let i = 0; i < pass.length; i++) {
         passHold += (pass[i]);
-        // Need to do some research on how to check
-        /*
-         If(i === ){
-
-            https://bobbyhadz.com/blog/javascript-check-if-string-contains-character
-         }
-         */
+        //check to see if the symbols are included
+        if(pass.includes("!", "?", "@", "#", "$", "%","&")){
+            console.log("TRUEEEE")
+        }
+         
+         
         console.log(passHold)
     }
 
