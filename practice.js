@@ -40,12 +40,29 @@ button.onclick = function () {
     }
 
 }
-
+// Svond project onclick function 
 submit.onclick = function() {
+    //getting user input
     user = userBox.value;
     pass = passBox.value;
 
-    console.log("Username " + user + " . " + "Password = " + pass)
+    // password place holder
+    let passHold = "";
+
+    //checking to see if the password has specific characters in user input
+    for(let i = 0; i < pass.length; i++) {
+        passHold += (pass[i]);
+        // Need to do some research on how to check
+        /*
+         If(i === ){
+
+            https://bobbyhadz.com/blog/javascript-check-if-string-contains-character
+         }
+         */
+        console.log(passHold)
+    }
+
+    //console.log("Username " + user + " . " + "Password = " + pass)
 }
 
 
