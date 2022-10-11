@@ -6,3 +6,6 @@ Javascript Practice problems as I learn JS
 
 # Practice Problem #2
 - User name and password input w/ little CSS 
+
+# StarWars Folder
+- Working with Javascript Fetch and Promises along side the Starwars API to display the characters name. 
