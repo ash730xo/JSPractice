@@ -9,6 +9,8 @@ functions:
     double it and put it in input 2
  */
 
+// this is a commengt
+
 // Gets id from project 1 HTML code 
 let textbox = document.getElementById("text");
 let button = document.getElementById("button");
